@@ -1,0 +1,344 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                  <div class="card-header card-header-warning card-header-icon">
+                      <div class="card-icon">
+                          <i class="material-icons">add_task</i>
+                      </div>
+                      <p class="card-category">New Complaints</p>
+                      <h3 class="card-title">150
+                      </h3>
+                  </div>
+                  <div class="card-footer">
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                  <div class="card-header card-header-success card-header-icon">
+                      <div class="card-icon">
+                          <i class="material-icons">analytics</i>
+                      </div>
+                      <p class="card-category">Completion Rate</p>
+                      <h3 class="card-title">53%</h3>
+                  </div>
+                  <div class="card-footer">
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                  <div class="card-header card-header-danger card-header-icon">
+                      <div class="card-icon">
+                          <i class="material-icons">assignment_turned_in</i>
+                      </div>
+                      <p class="card-category">Complaints Resolved</p>
+                      <h3 class="card-title">65</h3>
+                  </div>
+                  <div class="card-footer">
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                  <div class="card-header card-header-info card-header-icon">
+                      <div class="card-icon">
+                          <i class="material-icons">pending_actions</i>
+                      </div>
+                      <p class="card-category">Pending Complaints</p>
+                      <h3 class="card-title">75</h3>
+                  </div>
+                  <div class="card-footer">
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+           <div class="col-md-4">
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-6 col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-tabs card-header-primary">
+                      <div class="nav-tabs-navigation">
+                          <div class="nav-tabs-wrapper">
+                              <span class="nav-tabs-title">Complaints:</span>
+                              <ul class="nav nav-tabs" data-tabs="tabs">
+                                  <li class="nav-item">
+                                      <a mat-button class="nav-link active" href="#New-Complaints" data-toggle="tab">
+                                          <i class="material-icons">new_releases</i> New Complaints
+                                          <div class="ripple-container"></div>
+                                      </a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a mat-button class="nav-link" href="#Completed" data-toggle="tab">
+                                          <i class="material-icons">done</i> Resolved Complaints
+                                          <div class="ripple-container"></div>
+                                      </a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card-body">
+                      <div class="tab-content">
+                          <div class="tab-pane active" id="New-Complaints">
+                              <table class="table">
+                                  <tbody>
+                                      <tr>
+                                          <td>
+                                              <div class="form-check">
+                                                  <label class="form-check-label">
+                                                      <input class="form-check-input" type="checkbox" value="">
+                                                      <span class="form-check-sign">
+                                                          <span class="check"></span>
+                                                      </span>
+                                                  </label>
+                                              </div>
+                                          </td>
+                                          <td>Being unable to get through to a company on the telephone</td>
+                                          <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="form-check">
+                                                  <label class="form-check-label">
+                                                      <input class="form-check-input" type="checkbox" value="">
+                                                      <span class="form-check-sign">
+                                                          <span class="check"></span>
+                                                      </span>
+                                                  </label>
+                                              </div>
+                                          </td>
+                                          <td>Not having your phone calls returned by a company</td>
+                                          <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="form-check">
+                                                  <label class="form-check-label">
+                                                      <input class="form-check-input" type="checkbox" value="">
+                                                      <span class="form-check-sign">
+                                                          <span class="check"></span>
+                                                      </span>
+                                                  </label>
+                                              </div>
+                                          </td>
+                                          <td>Being kept waiting for an unreasonable period of time on the telephone
+                                          </td>
+                                          <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="form-check">
+                                                  <label class="form-check-label">
+                                                      <input class="form-check-input" type="checkbox" value="">
+                                                      <span class="form-check-sign">
+                                                          <span class="check"></span>
+                                                      </span>
+                                                  </label>
+                                              </div>
+                                          </td>
+                                          <td>Rude or unhelpful customer service staff</td>
+                                          <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Being given conflicting advice on the telephone</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Check your messages and notifications</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+                          <div class="tab-pane" id="Completed">
+                              <table class="table">
+                                  <tbody>
+                                      <tr>
+                                          <td>
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">done</i>
+                                            </button>
+                                          </td>
+                                          <td>Being unable to get through to a company on the telephone
+                                          </td>
+                                          <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">done</i>
+                                            </button>
+                                          </td>
+                                          <td>Not having your phone calls returned by a company</td>
+                                          <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">done</i>
+                                            </button>
+                                        </td>
+                                        <td>Check your messages and notifications</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">done</i>
+                                            </button>
+                                        </td>
+                                        <td>Being given conflicting advice on the telephone</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">done</i>
+                                            </button>
+                                        </td>
+                                        <td>Not having your phone calls returned by a company</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon" routerLink="/complaints-info">
+                                                <i class="material-icons">arrow_right_alt</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-warning">
+                      <h4 class="card-title">Pending Complaints</h4>
+                      <p class="card-category">Complaints till 02/08/2020</p>
+                  </div>
+                  <div class="card-body table-responsive">
+                      <table class="table table-hover">
+                          <thead class="text-warning">
+                              <th>ID</th>
+                              <th>Name</th>
+                              <th>Complaint</th>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1</td>
+                                  <td>Name 1</td>
+                                  <td>Not having your phone calls returned by a company</td>
+                                  <td class="td-actions text-right">
+                                    </td>
+                              </tr>
+                              <tr>
+                                  <td>2</td>
+                                  <td>Name 2</td>
+                                  <td>Being given conflicting advice on the telephone</td>
+                                  <td class="td-actions text-right">
+                                       
+                                    </td>
+                              </tr>
+                              <tr>
+                                  <td>3</td>
+                                  <td>Name 3</td>
+                                  <td>Check your messages and notifications</td>
+                                  <td class="td-actions text-right">
+                                       
+                                    </td>
+                              </tr>
+                              <tr>
+                                  <td>4</td>
+                                  <td>Name 4</td>
+                                  <td>Being unable to get through to a company on the telephone</td>
+                                  <td class="td-actions text-right"> 
+                                    </td>
+                              </tr>
+                              <tr>
+                                <td>5</td>
+                                <td>Name 5</td>
+                                <td>Being unable to get through to a company on the telephone</td>
+                                <td class="td-actions text-right"> 
+                                  </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Name 6</td>
+                                <td>Being unable to get through to a company on the telephone</td>
+                                <td class="td-actions text-right"> 
+                                  </td>
+                            </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

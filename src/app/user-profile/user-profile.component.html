@@ -1,0 +1,118 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-8">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title">Employee Complaint Form</h4>
+                      <p class="card-category">Complaint Information</p>
+                  </div>
+                  <div class="card-body">
+                      <form>
+                          <div class="row">
+                              <div class="col-md-6">
+                                <mat-form-field class="example-full-width">
+                                    <input matInput placeholder="First Name" >
+                                  </mat-form-field>
+                              </div>
+                              <div class="col-md-6">
+                                  <mat-form-field class="example-full-width">
+                                    <input matInput placeholder="Last Name">
+                                  </mat-form-field>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <mat-form-field class="example-full-width">
+                                      <input matInput placeholder="Address" type="text">
+                                  </mat-form-field>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-3">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput placeholder="Employee ID" type="text">
+                                </mat-form-field>
+                              </div>
+                              <div class="col-md-4">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput placeholder="Department" type="text">
+                                </mat-form-field>
+                              </div>
+                              <div class="col-md-5">
+                                  <mat-form-field class="example-full-width">
+                                      <input matInput placeholder="Nature of Work/ Assigned Task" type="text">
+                                  </mat-form-field>
+                              </div>
+                          </div>
+
+                          <div class="row">
+                              <div class="col-md-12">
+                              <label>Complaint About: </label>
+                              <div>
+                                  <table>
+                                      <tr>
+                                          <td><input type="radio" id="1" value="1">
+                                              <label for="1" class="mat-button">Management Concern</label></td>
+                                          <td><input type="radio" id="2" value="2">
+                                              <label for="2" class="mat-button">Worker Policy</label></td>
+                                          <td> <input type="radio" id="3" value="3">
+                                              <label for="3" class="mat-button">Salary/Wages</label></td>
+                                      </tr>
+                                      <tr>
+                                          <td><input type="radio" id="4" value="4">
+                                              <label for="4" class="mat-button">Overtime</label></td>
+                                          <td> <input type="radio" id="5" value="5">
+                                              <label for="5" class="mat-button">Safety/Hygiene</label></td>
+                                          <td> <input type="radio" id="6" value="6">
+                                              <label for="6" class="mat-button">Co-worker</label></td>
+                                      </tr>
+                                      <tr>
+                                          <td><input type="radio" id="7" value="7">
+                                              <label for="7" class="mat-button">Supervisor</label></td>
+                                          <td><input type="radio" id="8" value="8">
+                                              <label for="8" class="mat-button">Equipment/Machinery</label></td>
+                                          <td><input type="radio" id="9" value="9">
+                                              <label for="9" class="mat-button">Others</label></td>
+                                      </tr>
+                                  </table>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                <label>Description of Complaint</label>
+                                <mat-form-field class="example-full-width">
+                                   <textarea matInput placeholder="Share problems"></textarea>
+                                 </mat-form-field>
+                                  <!-- <div class="form-group">
+
+                                      <div class="form-group">
+                                          <label class="bmd-label-floating"> Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</label>
+                                          <textarea class="form-control" rows="5"></textarea>
+                                      </div>
+                                  </div> -->
+                              </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <label>Attachments:</label>
+                              <input type="file" style="margin-left: 20px;">
+                                <!-- <div class="form-group">
+
+                                    <div class="form-group">
+                                        <label class="bmd-label-floating"> Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</label>
+                                        <textarea class="form-control" rows="5"></textarea>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                          <button mat-raised-button type="submit" class="btn btn-danger pull-right">Submit</button>
+                          <div class="clearfix"></div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
